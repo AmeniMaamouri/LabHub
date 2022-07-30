@@ -776,7 +776,7 @@ video {
   animation: countries 1s forwards;
   counter-reset: none;
 }
-@keyframes countries {
+/* @keyframes countries {
   0% {
     counter-increment: count 0;
   }
@@ -897,3 +897,4 @@ video {
     counter-increment: count 10000;
   }
 }
+ */
