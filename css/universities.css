@@ -263,7 +263,7 @@ body {
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 2%;
   padding-left: 7.321vw;
   padding-right: 7.321vw;
 }
