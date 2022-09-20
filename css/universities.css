@@ -584,11 +584,11 @@ body {
 }
 
 @media (max-width: 1200px) {
-  #home__navigation ul li:nth-child(7) a {
+  #home__navigation ul li:nth-child(8) a {
     padding: 8px 25px;
   }
 
-  #home__navigation ul li:nth-child(8) a {
+  #home__navigation ul li:nth-child(9) a {
     padding: 8px 25px;
   }
 
@@ -652,6 +652,17 @@ body {
     text-align: center;
   }
 }
+@media (max-width: 1100px) {
+  #home__navigation ul li a {
+    margin-right: 6px;
+  }
+  #home__navigation ul li:nth-child(8) a {
+    padding: 8px 16px;
+  }
+  #home__navigation ul li:nth-child(9) a {
+    padding: 8px 16px;
+  }
+}
 
 @media (max-width: 991px) {
   #home__navigation .logo {
@@ -659,7 +670,7 @@ body {
     height: 46px;
   }
 
-  #home__navigation ul li:nth-child(7) a {
+  #home__navigation ul li:nth-child(8) a {
     margin-right: 0px;
     text-align: center;
     margin-bottom: 15px;
@@ -667,7 +678,7 @@ body {
     margin-left: 0px;
   }
 
-  #home__navigation ul li:nth-child(8) a {
+  #home__navigation ul li:nth-child(9) a {
     margin-right: 0px;
     text-align: center;
   }
