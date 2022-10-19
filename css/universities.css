@@ -199,7 +199,6 @@ body {
 #university__search__section .form-check-input[type="checkbox"] {
   border-radius: 3px;
   border: 2px solid #16697a !important;
-
 }
 
 #university__search__section .form-check-input:checked {
@@ -240,7 +239,6 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 70px;
-
 }
 
 #universities__number__of__universities .universities p:nth-child(1) {
@@ -874,7 +872,7 @@ body {
   position: fixed;
   right: 30px;
   bottom: 15px;
-  border:none;
+  border: none;
   visibility: hidden;
 }
 #home__footer #scrollToTopBtn::before {

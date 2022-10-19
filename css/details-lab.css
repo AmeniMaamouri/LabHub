@@ -2,25 +2,28 @@
 
 html {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
-  height: 100%;
+  min-height: 100%;
 }
-.pp {
-  border: 2px solid red;
-}
+
+
+
 /* Navbar */
 #home__navigation .logo {
   vertical-align: initial;
   width: 89px;
   height: 25px;
 }
+
 #home__navigation .menu {
   padding-left: 130px;
   padding-right: 4.321vw;
   margin-top: 20px;
 }
+
 #home__navigation ul li a {
   font-family: Poppins-SemiBold;
   font-size: 16px;
@@ -29,9 +32,11 @@ body {
   margin-right: 16px;
   cursor: pointer;
 }
+
 #home__navigation .navbar-toggler:focus {
   box-shadow: 0 0 0 0.1rem;
 }
+
 #home__navigation .navbar-light .navbar-toggler {
   color: #16697a;
   border-color: #16697a;
@@ -45,6 +50,7 @@ body {
   border: 2px solid #16697a;
   padding: 8px 28px;
 }
+
 #home__navigation ul li:nth-child(9) a {
   font-family: Poppins-SemiBold;
   color: #ffffff;
@@ -55,9 +61,11 @@ body {
   padding: 8px 28px;
   margin-right: 0px;
 }
+
 #home__navigation .active-page {
   color: #069a8e;
 }
+
 /*Left sidebar*/
 #left__side__nav .item-nav {
   list-style: none;
@@ -66,6 +74,7 @@ body {
   max-width: 120px;
   margin: auto;
 }
+
 #left__side__nav .left-nav {
   float: left;
   position: fixed;
@@ -78,14 +87,17 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
 #left__side__nav .menu-left {
   position: relative;
   text-align: center;
   cursor: pointer;
 }
+
 #left__side__nav .menu-left a {
   text-decoration: none;
 }
+
 #left__side__nav .menu-left .name-menu {
   font-size: 14px;
   font-family: Poppins-Medium;
@@ -127,45 +139,55 @@ body {
 #left__side__nav .icon-color {
   filter: brightness(0) invert(1);
 }
+
 /*Sidebar scrollbar*/
 #left__side__nav .scroll-side-bar {
   overflow-y: scroll;
   max-height: 96vh;
   overflow-x: hidden;
 }
+
 #left__side__nav .scroll-side-bar::-webkit-scrollbar {
   width: 0px;
   background: transparent;
 }
+
 #left__side__nav .scroll-side-bar::-webkit-scrollbar-track {
   box-shadow: inset 0 124px 0px #d4cece;
   border-radius: 10px;
 }
+
 #left__side__nav .scroll-side-bar::-webkit-scrollbar-thumb {
   background: transparent;
   border-radius: 10px;
 }
+
 #left__side__nav .scroll-side-bar::-webkit-scrollbar-thumb:hover {
   background: transparent;
 }
+
 /* Details Lab  */
 #details__lab .result-lab {
   padding-left: 130px;
   padding-right: 4.321vw;
   padding-top: 75px;
 }
+
 #details__lab .carousel-inner {
   border-radius: 12px;
 }
+
 #details__lab .img-carousel {
   height: 340px;
   object-fit: cover;
 }
+
 #details__lab .carousel-control-next {
   width: 6%;
   top: 0px;
   opacity: initial;
 }
+
 #details__lab .carousel-control-prev {
   width: 6%;
   top: 0px;
@@ -185,20 +207,25 @@ body {
   box-shadow: 0px 0px 30px 8px rgb(0 0 0 / 7%);
   -webkit-box-shadow: 0px 0px 30px 8px rgb(0 0 0 / 7%);
 }
+
 #details__lab .logo-lab {
   width: 110px;
   height: 138px;
   border-radius: 10px;
 }
+
 #details__lab .details-of-lab {
   width: 89%;
 }
+
 #details__lab .data-lab {
   text-align: center;
 }
+
 #details__lab .url-lab {
   margin-top: 22px;
 }
+
 #details__lab .website-lab {
   font-family: Poppins-SemiBold;
   color: #16697a;
@@ -211,18 +238,22 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
 #details__lab .website-lab img {
   margin-right: 8px;
   width: 14px;
 }
+
 #details__lab .social-media {
   margin-top: 14px;
 }
+
 #details__lab .university-lab {
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
 }
+
 #details__lab .university-lab p {
   font-family: Poppins-Bold;
   color: #202124;
@@ -230,6 +261,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #details__lab .university-lab a {
   font-family: Poppins-SemiBold;
   color: #ffffff;
@@ -242,15 +274,18 @@ body {
   cursor: pointer;
   text-decoration: none;
 }
+
 #details__lab .university-lab a img {
   margin-right: 10px;
   margin-bottom: 4px;
   width: 18px;
 }
+
 #details__lab .contact-lab {
   display: flex;
   flex-wrap: wrap;
 }
+
 #details__lab .data-of-university {
   font-family: Poppins-Light;
   color: #202124;
@@ -258,6 +293,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #details__lab .adress,
 .founded,
 .business-department,
@@ -268,6 +304,7 @@ body {
   margin-right: 12px;
   margin-bottom: 12px;
 }
+
 #details__lab .describe-lab p {
   font-family: Poppins-Light;
   color: #b1b1b1;
@@ -293,6 +330,7 @@ body {
   justify-content: flex-start;
   flex-wrap: wrap;
 }
+
 #details__lab .tags-lab a {
   font-family: Poppins-Regular;
   color: #5a5a5a;
@@ -305,6 +343,7 @@ body {
   padding: 6px 8px;
   cursor: pointer;
 }
+
 /* Categories Lab */
 #categories__lab {
   display: none;
@@ -318,6 +357,7 @@ body {
   flex-wrap: wrap;
   gap: 10px 15px;
 }
+
 #categories__lab .icon {
   display: inline-block;
   width: 70px;
@@ -343,6 +383,7 @@ body {
 #categories__lab .icon-color {
   filter: brightness(0) invert(1);
 }
+
 /* #categories__lab .title-category {
   width: 30%;
 } */
@@ -359,6 +400,7 @@ body {
   margin-top: 10px;
   margin-left: 18px;
 }
+
 #categories__lab .category-grants {
   font-size: 18px;
   font-family: Poppins-Medium;
@@ -367,18 +409,22 @@ body {
   margin-top: 10px;
   margin-left: 18px;
 }
+
 #categories__lab .category-grants span {
   display: block;
 }
+
 /*People*/
 #people .details-people {
   padding-left: 130px;
   padding-right: 4.321vw;
 }
+
 #people .student {
   display: block;
   margin-top: 50px;
 }
+
 #people .the-people {
   font-size: 30px;
   font-family: Poppins-Bold;
@@ -388,6 +434,7 @@ body {
 #people .phd-students {
   display: flex;
 }
+
 #people .the-student {
   font-size: 20px;
   font-family: Poppins-Medium;
@@ -400,6 +447,7 @@ body {
   color: #1e2037;
   margin-left: 20px;
 }
+
 #people .list-student {
   display: flex;
   flex-wrap: wrap;
@@ -409,6 +457,7 @@ body {
   grid-template-columns: 22% 22% 22% 22% 20%;
   width: 100%; */
 }
+
 #people .details-student {
   width: 20%;
 }
@@ -422,6 +471,7 @@ body {
   margin-bottom: 12px;
   margin-top: 25px;
 }
+
 #people .name-student {
   font-size: 22px;
   font-family: Poppins-Regular;
@@ -436,20 +486,24 @@ body {
   padding-left: 130px;
   padding-right: 4.321vw;
 }
+
 #alumni .details-alumni {
   margin-top: 50px;
 }
+
 #alumni .details-alumni p {
   font-size: 20px;
   font-family: Poppins-Medium;
   color: #1e2037;
 }
+
 #alumni .number-alumni {
   font-size: 18px;
   font-family: Poppins-Regular;
   color: #1e2037;
   margin-left: 20px;
 }
+
 #alumni .alumni-student {
   margin-top: 22px;
   display: flex;
@@ -470,6 +524,7 @@ body {
   padding: 6px 26px;
   cursor: pointer;
 }
+
 /* Publications */
 #publications .details-publications {
   margin-top: 75px;
@@ -479,14 +534,17 @@ body {
   justify-content: space-between;
   margin-bottom: 50px;
 }
+
 #publications .data-publications {
   display: flex;
 }
+
 #publications .data-publications p:nth-child(1) {
   font-size: 30px;
   font-family: Poppins-Bold;
   color: #1e2037;
 }
+
 #publications p:nth-child(2) {
   font-size: 18px;
   font-family: Poppins-Regular;
@@ -533,9 +591,11 @@ body {
   font-family: Poppins-Regular;
   text-align: center;
 }
+
 #publications .year:focus {
   color: #16697a;
 }
+
 #publications .year-dropdown {
   width: 100%;
 }
@@ -550,29 +610,36 @@ body {
   overflow-y: scroll;
   max-height: 125px;
 }
+
 #publications .year-event::-webkit-scrollbar {
   width: 10px;
 }
+
 #publications .year-event::-webkit-scrollbar-track {
   box-shadow: inset 0 124px 0px #d4cece;
   border-radius: 10px;
 }
+
 #publications .year-event::-webkit-scrollbar-thumb {
   background: #16697a;
   border-radius: 10px;
 }
+
 #publications .year-event::-webkit-scrollbar-thumb:hover {
   background: #16697a;
 }
+
 #publications .form-check {
   display: block;
   min-height: 1.5rem;
   padding-left: 1.5em;
   margin-bottom: 0.125rem;
 }
+
 #publications .form-check-label:hover {
   color: #16697a;
 }
+
 #publications .form-check-label {
   margin-left: 26px;
   margin-bottom: 6px;
@@ -592,6 +659,7 @@ body {
   padding-left: 130px;
   margin-bottom: 50px;
 }
+
 #journal__publications .all-journal {
   border-radius: 36px;
   background-color: #ffffff;
@@ -610,30 +678,36 @@ body {
   color: #069a8e;
   margin-top: 30px;
 }
+
 #journal__publications .title-journal {
   font-size: 26px;
   font-family: Poppins-Bold;
   color: #111113;
 }
+
 #journal__publications .description-journal {
   font-size: 15px;
   font-family: Poppins-Medium;
   line-height: 28px;
   color: #a1a1a1;
 }
+
 #journal__publications .author {
   font-size: 15px;
   font-family: Poppins-Regular;
   color: #333333;
 }
+
 #journal__publications .links {
   display: flex;
   margin-top: -15px;
 }
+
 #journal__publications .download {
   display: flex;
   margin-right: 20px;
 }
+
 #journal__publications .label-download {
   margin-top: 20px;
   margin-left: 12px;
@@ -651,6 +725,7 @@ body {
   color: #16697a;
   cursor: pointer;
 }
+
 #journal__publications .label-link {
   margin-top: 20px;
   margin-left: 12px;
@@ -659,6 +734,7 @@ body {
   color: #16697a;
   cursor: pointer;
 }
+
 #journal__publications .cite {
   display: flex;
   margin-right: 20px;
@@ -667,9 +743,11 @@ body {
 #journal__publications .link {
   display: flex;
 }
+
 hr {
   margin: 0 !important;
 }
+
 /*Pagination*/
 #details__lab__pagination .pagination {
   flex-wrap: wrap;
@@ -700,6 +778,7 @@ hr {
   font-size: 16px;
   font-family: Poppins-Regular;
 }
+
 /*Teaching */
 #teaching__number .teaching-result {
   margin-top: 75px;
@@ -714,6 +793,7 @@ hr {
   font-family: Poppins-Bold;
   color: #1e2037;
 }
+
 #teaching__number .teaching-result p:nth-child(2) {
   font-size: 18px;
   font-family: Poppins-Regular;
@@ -721,6 +801,7 @@ hr {
   margin-left: 20px;
   margin-top: 5px;
 }
+
 /* Card Teaching */
 #card__teaching .all-cards {
   padding-right: 4.321vw;
@@ -728,6 +809,7 @@ hr {
   display: flex;
   justify-content: space-between;
 }
+
 #card__teaching .details-card {
   width: 30%;
   padding: 35px 35px 18px 35px;
@@ -741,14 +823,17 @@ hr {
   font-family: Poppins-Bold;
   color: #1e2037;
 }
+
 #card__teaching .book {
   display: flex;
   justify-content: center;
 }
+
 #card__teaching .book img {
   width: 20px;
   margin-right: 12px;
 }
+
 #card__teaching .name-book {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -756,6 +841,7 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #card__teaching .teacher {
   display: flex;
   justify-content: center;
@@ -763,10 +849,12 @@ hr {
   margin-right: -15px;
   margin-bottom: 20px;
 }
+
 #card__teaching .teacher img {
   width: 25px;
   margin-right: 12px;
 }
+
 #card__teaching .name-teacher {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -774,6 +862,7 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #card__teaching .description-course {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -781,18 +870,22 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #card__teaching .course {
   display: flex;
   justify-content: space-between;
   margin-top: 25px;
 }
+
 #card__teaching .credit {
   display: flex;
   gap: 15px;
 }
+
 #card__teaching .credit img {
   width: 20px;
 }
+
 #card__teaching .total-credit {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -801,6 +894,7 @@ hr {
   margin: 0;
   margin-top: 10px;
 }
+
 #card__teaching .link-course {
   font-family: Poppins-SemiBold;
   color: #ffffff;
@@ -813,6 +907,7 @@ hr {
   cursor: pointer;
   text-decoration: none;
 }
+
 /*Grants & Funded projects*/
 #funded__projects .project-result {
   margin-top: 75px;
@@ -821,11 +916,13 @@ hr {
   display: flex;
   margin-bottom: 30px;
 }
+
 #funded__projects .project-result p:nth-child(1) {
   font-size: 30px;
   font-family: Poppins-Bold;
   color: #1e2037;
 }
+
 #funded__projects .project-result p:nth-child(2) {
   font-size: 18px;
   font-family: Poppins-Regular;
@@ -833,6 +930,7 @@ hr {
   margin-left: 20px;
   margin-top: 5px;
 }
+
 /*Projects*/
 #project .list-projects {
   display: flex;
@@ -841,6 +939,7 @@ hr {
   padding-left: 130px;
   padding-right: 4.321vw;
 }
+
 #project .card-project {
   padding: 35px 30px 20px 30px;
   background-color: #ffffff;
@@ -855,15 +954,18 @@ hr {
   color: #1e2037;
   text-align: left;
 }
+
 #project .organization {
   display: flex;
   justify-content: left;
   margin-bottom: 22px;
 }
+
 #project .organization img {
   width: 20px;
   margin-right: 12px;
 }
+
 #project .name-organization {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -871,14 +973,17 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #project .program {
   display: flex;
   justify-content: left;
   margin-bottom: 22px;
 }
+
 #project .program img {
   margin-right: 12px;
 }
+
 #project .name-program {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -886,14 +991,17 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #project .date-program {
   display: flex;
   justify-content: left;
   margin-bottom: 22px;
 }
+
 #project .date-program img {
   margin-right: 12px;
 }
+
 #project .date {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -901,6 +1009,7 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #project .description-program {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -909,22 +1018,27 @@ hr {
   margin: 0;
   text-align: left;
 }
+
 /*Event number & Custom scrollbar*/
 #event__number .upcomevent {
   overflow-y: scroll;
   max-height: 125px;
 }
+
 #event__number .upcomevent::-webkit-scrollbar {
   width: 10px;
 }
+
 #event__number .upcomevent::-webkit-scrollbar-track {
   box-shadow: inset 0 124px 0px #d4cece;
   border-radius: 10px;
 }
+
 #event__number .upcomevent::-webkit-scrollbar-thumb {
   background: #16697a;
   border-radius: 10px;
 }
+
 #event__number .upcomevent::-webkit-scrollbar-thumb:hover {
   background: #16697a;
 }
@@ -937,11 +1051,13 @@ hr {
   margin-bottom: 30px;
   justify-content: space-between;
 }
+
 #event__number .event-result p:nth-child(1) {
   font-size: 30px;
   font-family: Poppins-Bold;
   color: #1e2037;
 }
+
 #event__number .event-result p:nth-child(2) {
   font-size: 18px;
   font-family: Poppins-Regular;
@@ -953,36 +1069,44 @@ hr {
 #event__number .data-event {
   display: flex;
 }
+
 /*Event number & Dropdown Menu*/
 #event__number .dropdown-toggle::after {
   content: none !important;
 }
+
 #event__number .btn {
   padding: 18px 25px;
   border-radius: 12px;
   border-color: #f1f3f6;
 }
+
 #event__number .btn-secondary {
   background-color: #ffffff;
   color: #1e2037;
   font-size: 16px;
   font-family: Poppins-Regular;
 }
+
 #event__number .arrow-dropdown-menu {
   margin-left: 14px;
 }
+
 #event__number .dropdown-menu {
   width: 100%;
 }
-#event__number .btn-check:focus + .btn-secondary,
+
+#event__number .btn-check:focus+.btn-secondary,
 .btn-secondary:focus {
   box-shadow: none !important;
 }
+
 #event__number .dropdown-menu li {
   font-family: Poppins-Light;
   font-size: 15px;
   color: #202124;
 }
+
 #event__number .dropdown-item:active {
   background-color: #16697a;
   color: #ffffff;
@@ -996,6 +1120,7 @@ hr {
   padding-left: 130px;
   padding-right: 4.321vw;
 }
+
 #event__details .card-event {
   padding: 35px 30px 38px 30px;
   background-color: #ffffff;
@@ -1008,6 +1133,7 @@ hr {
   display: block;
   margin: 0 auto;
 }
+
 #event__details .name-event {
   font-size: 18px;
   font-family: Poppins-Bold;
@@ -1015,6 +1141,7 @@ hr {
   margin-top: 20px;
   text-align: center;
 }
+
 #event__details .description-event {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -1023,14 +1150,17 @@ hr {
   margin: 0;
   text-align: center;
 }
+
 #event__details .date-event {
   display: flex;
   margin-top: 22px;
   justify-content: center;
 }
+
 #event__details .date-event img {
   margin-right: 12px;
 }
+
 #event__details .time-event {
   font-size: 15px;
   font-family: Poppins-Light;
@@ -1038,6 +1168,7 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #event__details .place-event {
   display: flex;
   margin: auto;
@@ -1054,9 +1185,11 @@ hr {
   padding: 0;
   margin: 0;
 }
+
 #event__details .program-download {
   text-align: center;
 }
+
 #event__details .btn-download {
   font-family: Poppins-Medium;
   color: #ffffff;
@@ -1073,6 +1206,7 @@ hr {
 #event__details .icon-download {
   margin-left: 5px;
 }
+
 /*Tools  number*/
 #tools__number .tools-result {
   margin-top: 75px;
@@ -1087,6 +1221,7 @@ hr {
   font-family: Poppins-Bold;
   color: #1e2037;
 }
+
 #tools__number .tools-result p:nth-child(2) {
   font-size: 18px;
   font-family: Poppins-Regular;
@@ -1094,6 +1229,7 @@ hr {
   margin-left: 20px;
   margin-top: 5px;
 }
+
 /*Tools details*/
 #tools__events .all-tools {
   display: flex;
@@ -1102,21 +1238,25 @@ hr {
   padding-right: 6.321vw;
   justify-content: space-between;
 }
+
 #tools__events .card-tools {
   display: flex;
   background-color: #ffffff;
   width: 48%;
   border-radius: 36px;
 }
+
 #tools__events .image-tools {
   width: 35%;
   object-fit: cover;
   border-top-left-radius: 36px;
   border-bottom-left-radius: 36px;
 }
+
 #tools__events .details-tools {
   padding: 20px 15px 20px 15px;
 }
+
 #tools__events .title-tools {
   font-size: 18px;
   font-family: Poppins-Bold;
@@ -1124,6 +1264,7 @@ hr {
   margin-top: 20px;
   text-align: left;
 }
+
 #tools__events .description-tools {
   font-size: 15px;
   font-family: Poppins-Regular;
@@ -1132,12 +1273,14 @@ hr {
   text-align: left;
   line-height: 19px;
 }
+
 #tools__events .link-share {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
   margin-right: 15px;
 }
+
 /*Jobs number */
 #jobs__positions .jobs-result {
   margin-top: 75px;
@@ -1152,6 +1295,7 @@ hr {
   font-family: Poppins-Bold;
   color: #1e2037;
 }
+
 #jobs__positions .jobs-result p:nth-child(2) {
   font-size: 18px;
   font-family: Poppins-Regular;
@@ -1159,6 +1303,7 @@ hr {
   margin-left: 20px;
   margin-top: 5px;
 }
+
 /*List Jobs & positions*/
 #list-jobs .list-of-jobs {
   margin-top: 25px;
@@ -1259,6 +1404,7 @@ hr {
   text-decoration: none;
   padding: 10px 96px;
 }
+
 /*Footer*/
 #home__footer .our-links {
   background-color: #212121;
@@ -1375,6 +1521,7 @@ hr {
   border: none;
   visibility: hidden;
 }
+
 #home__footer #scrollToTopBtn::before {
   content: "";
   position: absolute;
@@ -1389,6 +1536,7 @@ hr {
   #home__navigation ul li a {
     margin-right: 12px;
   }
+
   #home__footer .description-labhub {
     width: 100%;
     margin-bottom: 35px;
@@ -1442,9 +1590,11 @@ hr {
   #home__navigation ul li:nth-child(8) a {
     padding: 8px 25px;
   }
+
   #home__navigation ul li:nth-child(9) a {
     padding: 8px 25px;
   }
+
   #details__lab .website-lab {
     font-size: 14px;
   }
@@ -1452,40 +1602,50 @@ hr {
   #event__details .btn-download {
     padding: 8px 6px 8px 6px;
   }
+
   #list-jobs .see-more-job {
     padding: 5px 50px;
   }
+
   #left__side__nav {
     display: none;
   }
+
   #categories__lab {
     display: inherit;
   }
+
   #details__lab .result-lab {
     padding-left: 7.321vw;
     padding-right: 7.321vw;
   }
+
   #home__navigation .menu {
     padding-left: 7.321vw;
     padding-right: 7.321vw;
   }
+
   #people .details-people {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
   }
+
   #alumni .data-alumni {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
   }
+
   #publications .details-publications {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
   }
+
   #journal__publications .journal {
     padding-right: 7.321vw;
     padding-left: 10.321vw;
     margin-bottom: 50px;
   }
+
   #teaching__number .teaching-result {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
@@ -1500,22 +1660,27 @@ hr {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
   }
+
   #tools__number .tools-result {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
   }
+
   #jobs__positions .jobs-result {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
   }
+
   #categories__lab .category {
     padding-left: 10.321vw;
     padding-right: 7.321vw;
   }
+
   #home__footer .our-links {
     padding-right: 7.321vw;
     padding-left: 7.321vw;
   }
+
   #home__footer .social-media {
     padding-right: 7.321vw;
     padding-left: 7.321vw;
@@ -1526,31 +1691,39 @@ hr {
     padding-right: 7.321vw;
   }
 }
+
 @media (max-width: 1100px) {
   #home__navigation ul li a {
     margin-right: 6px;
   }
+
   #home__navigation ul li:nth-child(8) a {
     padding: 8px 16px;
   }
+
   #home__navigation ul li:nth-child(9) a {
     padding: 8px 16px;
   }
+
   #card__teaching .course {
     display: block;
   }
+
   #card__teaching .credit {
     justify-content: center;
     margin-bottom: 12px;
   }
+
   #event__details .time-event {
     text-align: left;
   }
 }
+
 @media (max-width: 1055px) {
   #details__lab .contact-lab {
     font-size: 14px;
   }
+
   #details__lab .adress,
   .founded,
   .business-department,
@@ -1558,22 +1731,27 @@ hr {
   .educational-materials-2 {
     margin-top: 4px;
   }
+
   #event__details .icon-download {
     display: none;
   }
+
   #tools__events .all-tools {
     display: block;
   }
+
   #tools__events .card-tools {
     width: 100%;
     margin-bottom: 22px;
   }
 }
+
 @media (max-width: 991px) {
   #home__navigation .logo {
     width: 110px;
     height: 46px;
   }
+
   #home__navigation ul li:nth-child(8) a {
     margin-right: 0px;
     text-align: center;
@@ -1581,21 +1759,26 @@ hr {
     margin-top: 15px;
     margin-left: 0px;
   }
+
   #home__navigation ul li:nth-child(9) a {
     margin-right: 0px;
     text-align: center;
   }
+
   #details__lab .carousel-control-next {
     width: 12%;
   }
+
   #details__lab .carousel-control-prev {
     width: 12%;
   }
+
   #people .details-student {
     text-align: center;
 
     width: 25%;
   }
+
   #people .name-student {
     max-width: 195px;
   }
@@ -1603,14 +1786,17 @@ hr {
   #card__teaching .details-card {
     padding: 35px 20px 25px 20px;
   }
+
   #event__details .card-event {
     padding: 35px 10px 38px 10px;
   }
+
   #list-jobs .list-of-jobs {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
+
   #list-jobs .details-jobs {
     width: 40%;
   }
@@ -1620,23 +1806,29 @@ hr {
     text-align: center;
     width: 100%;
   }
+
   #event__details .date-event img {
     margin-right: 0;
   }
+
   #event__details .img-position {
     margin-bottom: 12px;
   }
+
   #event__details .date-event {
     display: block;
     text-align: center;
     width: 100%;
   }
+
   #event__details .calendar-event {
     margin-bottom: 12px;
   }
+
   #event__details .time-event {
     text-align: center;
   }
+
   /* #categories__lab .category {
     display: block;
   } */
@@ -1644,39 +1836,49 @@ hr {
     max-width: 255px;
     margin-bottom: 15px;
   }
+
   #categories__lab .category-grants span {
     display: flex;
   }
 }
+
 @media (max-width: 768px) {
   #home__navigation .menu {
     padding-left: 5.321vw;
     padding-right: 5.321vw;
   }
+
   #details__lab .carousel-control-next {
     width: 25%;
   }
+
   #details__lab .carousel-control-prev {
     width: 25%;
   }
+
   #details__lab .description-lab {
     display: block;
   }
+
   #details__lab .logo-lab {
     width: 122px;
   }
+
   #details__lab .details-of-lab {
     width: 100%;
     margin-top: 25px;
   }
+
   #people .list-student {
     justify-content: center;
   }
+
   #people .details-student {
     text-align: center;
 
     width: 80%;
   }
+
   #people .name-student {
     max-width: none;
   }
@@ -1695,6 +1897,7 @@ hr {
     padding-left: 10.321vw;
     display: block;
   }
+
   #card__teaching .details-card {
     width: 100%;
     margin-bottom: 20px;
@@ -1705,67 +1908,84 @@ hr {
     padding-right: 7.321vw;
     display: block;
   }
+
   #project .list-projects {
     display: block;
     padding-left: 10.321vw;
     padding-right: 10.321vw;
   }
+
   #project .card-project {
     width: 100%;
     margin-bottom: 20px;
   }
+
   #event__details .all-event {
     display: block;
     padding-left: 10.321vw;
     padding-right: 10.321vw;
   }
+
   #event__details .card-event {
     width: 100%;
   }
+
   #tools__events .all-tools {
     padding-left: 10.321vw;
     padding-right: 10.321vw;
   }
+
   #tools__events .card-tools {
     display: block;
   }
+
   #tools__events .image-tools {
     width: 100%;
     border-top-right-radius: 36px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
   }
+
   #tools__events .title-tools {
     text-align: center;
   }
+
   #tools__events .description-tools {
     text-align: center;
   }
+
   #tools__events .link-share {
     justify-content: center;
     margin-right: 0;
   }
+
   #jobs__positions .jobs-result {
     padding-left: 7.321vw;
     padding-right: 7.321vw;
     display: block;
   }
+
   #list-jobs .list-of-jobs {
     padding-left: 7.321vw;
     padding-right: 7.321vw;
   }
+
   #list-jobs .details-jobs {
     width: 100%;
   }
+
   #event__number .event-result {
     display: block;
   }
+
   #event__number .dropdown-menu {
     width: 228px;
   }
+
   #publications .year-dropdown {
     width: 181px;
   }
+
   #tools__number .tools-result {
     padding-right: 7.321vw;
     padding-left: 7.321vw;
@@ -1786,6 +2006,7 @@ hr {
     padding-right: 7.321vw;
   }
 }
+
 @media (max-width: 500px) {
   #home__footer .social-media-img img {
     margin: 0px 5px;
@@ -1796,33 +2017,43 @@ hr {
   #details__lab .university-lab {
     display: block;
   }
+
   #details__lab .university-lab p {
     margin-bottom: 12px;
   }
+
   #details__lab .contact-lab {
     margin-top: 12px;
   }
+
   #people .phd-students {
     display: block;
   }
+
   #publications .data-publications {
     display: block;
   }
+
   #journal__publications .links {
     display: block;
   }
+
   #journal__publications .download img {
     margin-left: -5px;
   }
+
   #journal__publications .label-download {
     margin-left: 8px;
   }
+
   #journal__publications .cite {
     margin-top: -22px;
   }
+
   #journal__publications .link {
     margin-top: -22px;
   }
+
   #journal__publications .title-journal {
     font-size: 22px;
   }
@@ -1830,30 +2061,38 @@ hr {
   #teaching__number .teaching-result {
     display: block;
   }
+
   #card__teaching .link-course {
     padding: 5px 14px;
   }
+
   #tools__number .tools-result {
     display: block;
   }
+
   #list-jobs .see-more-job {
     padding: 5px 26px;
   }
+
   #event__number .event-result {
     padding-left: 7.321vw;
     padding-right: 7.321vw;
   }
+
   #event__number .btn {
     padding: 0;
     width: 200px;
     height: 55px;
   }
+
   #event__number .dropdown-menu {
     width: 200px;
   }
+
   #categories__lab .name-category {
     font-size: 15px;
   }
+
   #categories__lab .category-grants {
     font-size: 15px;
   }

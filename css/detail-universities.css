@@ -927,9 +927,12 @@ body {
     padding: 5px 26px;
   }
 }
+#list-jobs .details-jobs {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 /* SCROLL */
-
 #home__footer #scrollToTopBtn {
   background-color: #069a8e;
   border-radius: 10px;
@@ -942,7 +945,7 @@ body {
   position: fixed;
   right: 30px;
   bottom: 15px;
-  border:none;
+  border: none;
   visibility: hidden;
 }
 #home__footer #scrollToTopBtn::before {
