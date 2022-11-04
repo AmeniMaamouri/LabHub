@@ -487,7 +487,7 @@ video {
 }
 
 #home__footer .contact-us {
-  width: 18%;
+  
   padding-right: 15px;
 }
 
@@ -661,32 +661,7 @@ video {
     margin-bottom: 35px;
   }
 
-  #home__footer .our-links {
-    display: block;
-    text-align: center;
-  }
-
-  #home__footer .number-phone {
-    display: block;
-  }
-
-  #home__footer .email {
-    display: block;
-  }
-
-  #home__footer .social-media {
-    text-align: center;
-    display: block;
-  }
-
-  #home__footer .copyrigt {
-    width: 100%;
-  }
-
-  #home__footer .social-media-img {
-    width: 100%;
-    text-align: center;
-  }
+  
 }
 
 @media (max-width: 1100px) {
@@ -815,6 +790,38 @@ video {
   #home__our__mission .rocket img {
     width: 70%;
   }
+
+  
+  #home__footer .our-links {
+    display: block;
+    text-align: center;
+  } 
+
+   #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  } 
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  } 
+
+  #home__footer .social-media-img {
+    text-align: center;
+  }
+
+#home__footer .copyrigt {
+    width: 100%;
+}
+
+
+#home__footer .social-media-img {
+    width: 100%;
+}
 }
 
 @media (max-width: 768px) {

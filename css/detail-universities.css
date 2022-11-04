@@ -289,14 +289,16 @@ body {
 
 #labs__list__of__labs .result-search {
   margin-top: 25px;
-  display: inline-grid;
-  grid-template-columns: 35% 35% 35%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: flex-start;
   padding-left: 10.321vw;
   padding-right: 7.321vw;
 }
 
 #labs__list__of__labs .labs-details {
-  width: 90%;
+  width: 31%;
   text-align: center;
   margin-bottom: 40px;
   padding-bottom: 25px;
@@ -417,25 +419,37 @@ body {
 }
 
 #list-jobs .list-of-jobs {
-  margin-top: 25px;
+  /* margin-top: 25px;
   display: inline-grid;
   grid-template-columns: 35% 35% 35%;
   padding-left: 10.321vw;
-  padding-right: 7.321vw;
+  padding-right: 7.321vw; */
+
+  margin-top: 25px;
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+gap: 25px;
+/* display: inline-grid;
+grid-template-columns: 35% 35% 35%; */
+padding-left: 10.321vw;
+padding-right: 7.321vw;
+
 }
 
 #list-jobs .details-jobs {
-  width: 90%;
-  text-align: left;
-  margin-bottom: 40px;
-  padding-bottom: 25px;
-  padding-left: 26px;
-  padding-right: 26px;
-  border-top-left-radius: 26px;
-  border-bottom-left-radius: 26px;
-  border-top-right-radius: 26px;
-  border-bottom-right-radius: 26px;
-  background-color: #ffffff;
+  width: 31%;
+text-align: left;
+margin-bottom: 40px;
+padding-bottom: 50px;
+padding-left: 26px;
+padding-right: 26px;
+border-top-left-radius: 26px;
+border-bottom-left-radius: 26px;
+border-top-right-radius: 26px;
+border-bottom-right-radius: 26px;
+background-color: #ffffff;
+position: relative;
 }
 
 #list-jobs .name-job {
@@ -538,7 +552,7 @@ body {
 }
 
 #home__footer .contact-us {
-  width: 18%;
+  
   padding-right: 15px;
 }
 
@@ -715,7 +729,7 @@ body {
     margin-bottom: 35px;
   }
 
-  #home__footer .our-links {
+  /* #home__footer .our-links {
     display: block;
     text-align: center;
   }
@@ -740,7 +754,7 @@ body {
   #home__footer .social-media-img {
     width: 100%;
     text-align: center;
-  }
+  } */
 }
 
 @media (max-width: 1055px) {
@@ -793,28 +807,60 @@ body {
   }
 
   #labs__list__of__labs .result-search {
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
   }
 
   #labs__list__of__labs .labs-details {
-    width: 40%;
+    width: 46%;
   }
 
   #list-jobs .list-of-jobs {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 
   #list-jobs .details-jobs {
-    width: 40%;
+    width: 46%;
   }
 
   #details__university .result-university {
     padding-top: 30px;
   }
+
+  
+  #home__footer .our-links {
+    display: block;
+    text-align: center;
+  } 
+
+   #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  } 
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  } 
+
+  #home__footer .social-media-img {
+    text-align: center;
+  }
+
+  #home__footer .social-media-img {
+    width: 100%;
+  }
+
+  #home__footer .copyrigt {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -926,10 +972,6 @@ body {
   #list-jobs .see-more-job {
     padding: 5px 26px;
   }
-}
-#list-jobs .details-jobs {
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 /* SCROLL */

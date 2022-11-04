@@ -70,7 +70,7 @@ body {
 #left__side__nav .item-nav {
   list-style: none;
   padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   max-width: 120px;
   margin: auto;
 }
@@ -83,7 +83,7 @@ body {
   background: #16697a;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
-  width: 135px;
+  width: 100px;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -99,7 +99,7 @@ body {
 }
 
 #left__side__nav .menu-left .name-menu {
-  font-size: 14px;
+  font-size: 12px;
   font-family: Poppins-Medium;
   color: #ffffff;
   text-decoration: none;
@@ -115,8 +115,8 @@ body {
 #left__side__nav .icon-cercle-nav-left {
   background-color: #f1f1f1;
   border-radius: 50%;
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -1306,15 +1306,18 @@ hr {
 
 /*List Jobs & positions*/
 #list-jobs .list-of-jobs {
+display: flex;
+flex-wrap: wrap;
+gap: 25px;
   margin-top: 25px;
-  display: inline-grid;
-  grid-template-columns: 35% 35% 35%;
+  /* display: inline-grid;
+  grid-template-columns: 35% 35% 35%; */
   padding-left: 10.321vw;
   padding-right: 6.321vw;
 }
 
 #list-jobs .details-jobs {
-  width: 90%;
+  width: 31%;
   text-align: left;
   margin-bottom: 40px;
   padding-bottom: 25px;
@@ -1552,23 +1555,7 @@ hr {
     margin-bottom: 35px;
   }
 
-  #home__footer .our-links {
-    display: block;
-    text-align: center;
-  }
 
-  #home__footer .number-phone {
-    display: block;
-  }
-
-  #home__footer .email {
-    display: block;
-  }
-
-  #home__footer .social-media {
-    text-align: center;
-    display: block;
-  }
 
   #home__footer .copyrigt {
     width: 100%;
@@ -1576,7 +1563,7 @@ hr {
 
   #home__footer .social-media-img {
     width: 100%;
-    text-align: center;
+    text-align: right;
   }
 }
 
@@ -1840,9 +1827,32 @@ hr {
   #categories__lab .category-grants span {
     display: flex;
   }
+
+     #home__footer .our-links {
+    display: block;
+    text-align: center;
+  } 
+
+   #home__footer .number-phone {
+    display: block;
+  }
+
+  #home__footer .email {
+    display: block;
+  } 
+
+  #home__footer .social-media {
+    text-align: center;
+    display: block;
+  } 
+
+  #home__footer .social-media-img {
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
+
   #home__navigation .menu {
     padding-left: 5.321vw;
     padding-right: 5.321vw;
@@ -2005,6 +2015,7 @@ hr {
     padding-left: 7.321vw;
     padding-right: 7.321vw;
   }
+
 }
 
 @media (max-width: 500px) {

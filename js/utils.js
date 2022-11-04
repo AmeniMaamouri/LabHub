@@ -259,3 +259,24 @@ if (mediaQuery.matches) {
     }, 1);
 }, false);
 
+
+
+var fixmeTop = $('.left-nav').offset().top;
+$(window).scroll(function () {
+  var currentScroll = $(window).scrollTop();
+  
+  if (currentScroll >= fixmeTop) {
+    $('.left-nav').css({
+      position: 'fixed',
+      top: '50%',
+      transition: '0.5s'
+
+    });
+  } else {
+    $('.left-nav').css({
+      position: 'fixed',
+      top: '59%',
+      transition: '0.5s'
+    });
+  }
+});
