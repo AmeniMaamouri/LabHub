@@ -482,6 +482,7 @@ body {
   margin: 0;
   max-width: 125px;
   text-align: center;
+  word-break: break-word;
 }
 
 /*Alumni*/
