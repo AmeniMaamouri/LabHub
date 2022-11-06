@@ -820,7 +820,7 @@ gap: 58px;
   text-align: center;
   border-radius: 36px;
   position: relative;
-  height: 41vh;
+ 
 }
 
 #card__teaching .title-card {
@@ -872,10 +872,11 @@ gap: 58px;
   font-size: 15px;
   font-family: Poppins-Regular;
   color: #a1a1a1;
+margin-bottom: 40px;
   padding: 0;
-  margin: 0;
+  margin-bottom: 65px;
   display: -webkit-box;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -887,11 +888,10 @@ gap: 58px;
   justify-content: space-around;
   margin-top: 25px;
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
+ 
   left: 0;
   right: 0;
-  top: 318px;
+ bottom: 20px;
 }
 
 #card__teaching .credit {
@@ -1729,6 +1729,7 @@ gap: 25px;
 
   #card__teaching .course {
     display: block;
+    margin-top: 8px;
   }
 
   #card__teaching .credit {
@@ -1739,10 +1740,7 @@ gap: 25px;
   #event__details .time-event {
     text-align: left;
   }
-  #card__teaching .details-card {
-  
-  height: 45vh;
-}
+ 
 }
 
 @media (max-width: 1055px) {
