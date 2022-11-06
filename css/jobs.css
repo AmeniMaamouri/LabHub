@@ -337,6 +337,13 @@ body {
   border-top-right-radius: 26px;
   border-bottom-right-radius: 26px;
   background-color: #ffffff;
+  position: relative;
+}
+#labs__list__of__labs .btn-see-more {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  right: 0;
 }
 #labs__list__of__labs .img-lab {
   width: 100%;
@@ -395,7 +402,7 @@ body {
   flex-wrap: wrap;
   padding-right: 45px;
   padding-left: 45px;
-  margin-bottom: 28px;
+  margin-bottom: 45px;
 }
 #labs__list__of__labs .tags a {
   font-family: Poppins-Regular;

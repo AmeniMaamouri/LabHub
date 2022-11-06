@@ -242,7 +242,8 @@ body {
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 35px;
+  /* justify-content: space-between; */
   padding-left: 7.321vw;
   padding-right: 7.321vw;
 }
@@ -257,8 +258,14 @@ body {
   border-top-right-radius: 26px;
   border-bottom-right-radius: 26px;
   background-color: #ffffff;
+  position: relative;
 }
-
+#labs__list__of__labs .btn-see-more {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  right: 0;
+}
 #labs__list__of__labs .img-lab {
   width: 100%;
   height: 12.625vw;
@@ -354,7 +361,7 @@ body {
   flex-wrap: wrap;
   padding-right: 25px;
   padding-left: 25px;
-  margin-bottom: 28px;
+  margin-bottom: 54px;
 }
 
 #labs__list__of__labs .tags a {
@@ -379,7 +386,7 @@ body {
   background-color: #069a8e;
   cursor: pointer;
   text-decoration: none;
-  padding: 10px 48px;
+  padding: 8px 48px;
 }
 
 /*Pagination*/
@@ -679,11 +686,11 @@ body {
   }
 
   #labs__list__of__labs .result-search {
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   #labs__list__of__labs .labs-details {
-    width: 40%;
+    width: 46%;
   }
 
   
@@ -743,7 +750,7 @@ body {
   }
 
   #labs__list__of__labs .labs-details {
-    width: 95%;
+    width:100%;
   }
 
   #labs__list__of__labs .img-lab {

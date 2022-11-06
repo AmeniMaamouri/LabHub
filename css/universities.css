@@ -273,6 +273,7 @@ body {
   border-top-right-radius: 26px;
   border-bottom-right-radius: 26px;
   background-color: #ffffff;
+  position: relative;
 }
 
 #list-of-universities .img-university {
