@@ -42,8 +42,8 @@ const color_item_13 = document.querySelector("#change-color-13");
 const item_14 = document.querySelector("#cercle-14");
 const color_item_14 = document.querySelector("#change-color-14");
 
-const removeActiveTab = () => {
 
+const removeActiveTab = () => {
 
   item_1.classList.remove("icon-color-nav-left");
   color_item_1.classList.remove("icon-color");
@@ -86,6 +86,7 @@ const removeActiveTab = () => {
 
   item_14.classList.remove("icon-color-nav-left");
   color_item_14.classList.remove("icon-color");
+
 };
 
 const activeTab = (item, iconItem) => {
@@ -93,12 +94,9 @@ const activeTab = (item, iconItem) => {
   iconItem.classList.add("icon-color");
 };
 
- 
 item_1.addEventListener("click", () => {
- 
     removeActiveTab();
     activeTab(item_1, color_item_1);
-
 });
 
 item_2.addEventListener("click", () => {
@@ -167,6 +165,11 @@ item_14.addEventListener("click", () => {
 
 
 
+
+
+
+
+
 // Setup isScrolling variable
 let isScrolling;
 
@@ -221,40 +224,40 @@ window.addEventListener('wheel', function ( event ) {
     activeTab(item_7, color_item_7);
   }
 
-if (mediaQuery.matches) {
-  // Then trigger an alert
-          // Run the callback
-          if(isVisibleSectionPeople ) {
-            removeActiveTab();
-            activeTab(item_8, color_item_8);
-          }   
-          if(isVisibleSectionPublications ) {
-            removeActiveTab();
-            activeTab(item_9, color_item_9);
-          }
+// if (mediaQuery.matches) {
+//   // Then trigger an alert
+//           // Run the callback
+//           if(isVisibleSectionPeople ) {
+//             removeActiveTab();
+//             activeTab(item_8, color_item_8);
+//           }   
+//           if(isVisibleSectionPublications ) {
+//             removeActiveTab();
+//             activeTab(item_9, color_item_9);
+//           }
              
-          if(isVisibleTeachingNumber ) {
-            removeActiveTab();
-            activeTab(item_10, color_item_10);
-          }
-          if(isVisibleFundedProjects ) {
-            removeActiveTab();
-            activeTab(item_11, color_item_11);
-          }
-          if(isVisibleEventNumber ) {
-            removeActiveTab();
-            activeTab(item_12, color_item_12);
-          }
-          if(isVisibleToolsNumber ) {
-            removeActiveTab();
-            activeTab(item_13, color_item_13);
-          }
-          if(isVisibleJobsNumber ) {
-            removeActiveTab();
-            activeTab(item_14, color_item_14);
-          }
+//           if(isVisibleTeachingNumber ) {
+//             removeActiveTab();
+//             activeTab(item_10, color_item_10);
+//           }
+//           if(isVisibleFundedProjects ) {
+//             removeActiveTab();
+//             activeTab(item_11, color_item_11);
+//           }
+//           if(isVisibleEventNumber ) {
+//             removeActiveTab();
+//             activeTab(item_12, color_item_12);
+//           }
+//           if(isVisibleToolsNumber ) {
+//             removeActiveTab();
+//             activeTab(item_13, color_item_13);
+//           }
+//           if(isVisibleJobsNumber ) {
+//             removeActiveTab();
+//             activeTab(item_14, color_item_14);
+//           }
 
-}
+// }
    
     }, 1);
 }, false);
@@ -280,3 +283,9 @@ $(window).scroll(function () {
     });
   }
 });
+
+
+
+ 
+
+
