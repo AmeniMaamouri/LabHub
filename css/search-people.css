@@ -352,10 +352,12 @@ padding-bottom: 290px;;
 
 #list__people .image-specialty {
   width: 22px;
+  height: 22px;
 }
 
 #list__people .title {
   font-size: 15px;
+  text-align: initial;
   color: #A1A1A1;
   font-family: Poppins-Regular;
   margin: 0;
@@ -768,6 +770,9 @@ padding-bottom: 290px;;
   #list__people .listed-people {
     display: block;
     text-align: center;
+  }
+  #list__people .title {
+    text-align: inherit;
   }
 }
 
