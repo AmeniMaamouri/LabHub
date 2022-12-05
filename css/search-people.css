@@ -7,7 +7,9 @@ html {
 body {
   height: 100%;
 }
-
+.pp {
+  border: 1px solid red;
+}
 /* Navbar */
 #home__navigation .logo {
   vertical-align: initial;
@@ -83,9 +85,9 @@ body {
 #search__people .searching {
   background: url(../img/75999.svg) no-repeat 5% 100%;
   background-size: cover;
-padding-bottom: 290px;;
+/* padding-bottom: 290px;; */
   margin-top: 50px;
-  /* height: 71vh; */
+  height: 71vh;
 }
 
 #search__people .people {
@@ -781,6 +783,15 @@ padding-bottom: 290px;;
     margin: 0px 5px;
   }
 }
+
+
+@media screen and (max-height: 900px) {
+  #search__people .icons-left {
+    top: 9px;
+  }
+ 
+}
+
 
 #home__footer #scrollToTopBtn {
   background-color: #069a8e;
