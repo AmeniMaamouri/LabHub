@@ -269,7 +269,8 @@ body {
 
 #list__job .all-jobs {
   display: flex;
-  gap: 55px;
+  justify-content: center;
+  gap: 30px;
   flex-wrap: wrap;
   padding-left: 7.321vw;
   padding-right: 7.321vw;
@@ -288,8 +289,8 @@ body {
   /* width: 25%; */
   width: 30%;
   position: relative;
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
 #list__job .details-job {
@@ -738,7 +739,7 @@ background: #069A8E !important;
   }
 
   #list__job .card-job {
-    margin-bottom: -25px
+    margin-bottom: -5px
   }
 }
 
